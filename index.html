@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Courses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Main</title>
 </head>
 <body>
 <header>
@@ -15,7 +19,7 @@
     <nav>
         <ul>
             <li>
-                <a href="#">Courses</a>
+                <a href="#">Courses<img src="./static/img/select_icon.svg" alt=""></a>
             </li>
             <li>
                 <a href="#">Teachers</a>
@@ -24,218 +28,200 @@
                 <a href="#">Blog</a>
             </li>
         </ul>
-        <a href="#">En</a>
+        <a href="#">En<img src="./static/img/select_icon.svg" alt=""></a>
         <a href="#">Sign In</a>
-        <a href="#">Trial free</a>
+        <a href="#" class="trial-link">Trial free</a>
     </nav>
-
 </header>
 <main>
-    <section class="course">
-        <p class="course__duration">
-            <b>6 months</b>
+    <section class="offer">
+        <img src="./static/img/ellipse_left.png" alt="background-ellipse">
+        <h1 class="offer__title">
+            Explore thousands of hands-on creative classes.
+        </h1>
+        <p class="offer__description">
+            Start learning for <a href="#" class="offer__free"><strong>free</strong></a>
         </p>
-        <p>
-            profession:
+        <button class="button">
+            Choose a course
+        </button>
+        <p class="offer__sale">
+            50%
         </p>
-        <h1 class="course__title">UI/UX designer </h1>
-        <p class="course__description">
-            You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma.
-            Add posters, logos, merch design and other strong projects to your portfolio. Start a career in the studio or freelance.
-        </p>
-        <button class="button">Started</button>
-        <p class="course__sale">
-            25%
-        </p>
-        <p>
-            <time>
-                17 Days 17:44:16
-            </time>
-        </p>
-
-        <ul class="course__sale">
+        <time class="offer__time">
+            24 Days 17:44:16
+        </time>
+        <ul class="offer__list">
             <li>
-                InVision
-            </li>
-            <li>
-                ProtoPie
-            </li>
-            <li>
-                Miro
-            </li>
-            <li>
-                Photoshop
-            </li>
-            <li>
-                Figma
+                Marketer
             </li>
             <li>
                 Illustrator
             </li>
+            <li>
+                Animator
+            </li>
+            <li>
+                Programmer
+            </li>
+            <li>
+                Designer
+            </li>
+            <li>
+                Photographer
+            </li>
         </ul>
+        <img src="./static/img/ellipse_right.png" alt="background-ellipse">
+        <img src="./static/img/ellipse_center.png" alt="background-ellipse">
+        <img src="./static/img/blue_rectangle-background.png" alt="background-rectangle">
+        <img src="./static/img/man-pointing-upper-left-corner.png" alt="pointer">
     </section>
-    <section class="profession-details">
-        <div class="profession-details__text">
-            <h2 class="profession-details__title">
-                Profession
-                UI/UX designer
+    <section class="learn">
+        <div class="learn__text">
+            <h2 class="learn__title">
+                What you will learn
             </h2>
-            <p class="profession-details__description">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis  occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+            <p class="learn__description">
+                Up-to-date knowledge from recognized market experts for beginners and practitioners
+            </p>
+            <p class="learn__description">
+                On the platform, you can gain knowledge on current topics and
+                in-demand skills. All courses are aimed at practice: we monitor the relevance of the material and help with employment and internship
             </p>
         </div>
-        <div class="profession-details__counters">
-            <p class="profession-details__counter-number">
-                5 000 $
-            </p>
-            <p class="profession-details__counter-description">
-                Salary
-            </p>
-            <p class="profession-details__counter-text">
-                Nam libero tempore, cum soluta nobis est
-            </p>
+        <div class="learn__counters">
+            <div class="learn__counter-item">
+                <p class="learn__counter-number">
+                    56
+                </p>
+                <p class="learn__counter-description">
+                    Courses
+                </p>
+            </div>
+            <div class="learn__counter-item">
+                <p class="learn__counter-number">
+                    108
+                </p>
+                <p class="learn__counter-description">
+                    Curators
+                </p>
+            </div>
+            <div class="learn__counter-item">
+                <p class="learn__counter-number">
+                    3 723
+                </p>
+                <p class="learn__counter-description">
+                    Graduates
+                </p>
+            </div>
         </div>
-        <div class="profession-details__counters">
-            <p class="profession-details__counter-number">
-                4 225
-            </p>
-            <p class="profession-details__counter-description">
-                Vacancies
-            </p>
-            <p class="profession-details__counter-text">
-                Vero eos et accusamus
-            </p>
-        </div>
-        <div class="profession-details__result">
-            <article class="profession-details__result-portfolio">
-                <h3 class="profession-details__result__title">
-                    Portfolio
+    </section>
+    <section class="discover">
+        <h2 class="discover__title">
+            Discover Lifelong Learning
+        </h2>
+        <ul class="discover__list">
+            <li>
+                <button class="discover__button">
+                    Popular
+                </button>
+            </li>
+            <li>
+                <button class="discover__button">
+                    Animation
+                </button>
+            </li>
+            <li>
+                <button class="discover__button">
+                    Design
+                </button>
+            </li>
+            <li>
+                <button class="discover__button">
+                    Illustration
+                </button>
+            </li>
+            <li>
+                <button class="discover__button">
+                    Programming
+                </button>
+            </li>
+            <li>
+                <button class="discover__button">
+                    Photo & Film
+                </button>
+            </li>
+            <li>
+                <button class="discover__button">
+                    Marketing
+                </button>
+            </li>
+        </ul>
+        <a href="#">
+            See more
+            <img src="./static/img/icon-arrow-right.svg" alt="See more">
+        </a>
+        <div class="discover__cards">
+            <article class="discover__card-item">
+                <img src="./static/img/card-triangles.jpg" alt="triangles">
+                <h3 class="discover__card-title">
+                    Sales Marketing
                 </h3>
-                <p class="profession-details__result__description">
-                    You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma
+                <p class="discover__card-duration">
+                    6 months
                 </p>
             </article>
-            <article class="profession-details__result-internship">
-                <h3 class="profession-details__result__title">
-                    Internship
+            <article class="discover__card-item">
+                <img src="./static/img/card-squares.jpg" alt="squares">
+                <h3 class="discover__card-title">
+                    Data analytics
                 </h3>
-                <p class="profession-details__result__description">
-                    You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma
+                <p class="discover__card-duration">
+                    9 months
                 </p>
             </article>
-            <article class="profession-details__result-certificate">
-                <h3 class="profession-details__result__title">
-                    Certificate
+            <article class="discover__card-item">
+                <img src="./static/img/card-rounds.jpg" alt="rounds">
+                <h3 class="discover__card-title">
+                    Design art
                 </h3>
-                <p class="profession-details__result__description">
-                    You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma
+                <p class="discover__card-duration">
+                    4 months
+                </p>
+            </article>
+            <article class="discover__card-item">
+                <img src="./static/img/card-rectangles.jpg" alt="rectangles">
+                <h3 class="discover__card-title">
+                    Animation
+                </h3>
+                <p class="discover__card-duration">
+                    8 months
                 </p>
             </article>
         </div>
     </section>
-    <section class="discover-prices">
-        <h2 class="discover-prices__title">
-            Discover Our
-            Prices
-        </h2>
-        <div class="discover-prices__cards">
-            <article class="discover-prices__card">
-                <h3 class="discover-prices__card__title">
-                    Base
-                </h3>
-                <ul class="discover-prices__card__description">
-                    <li>
-                        Et dolorum fuga et harum quidem rerum
-                    </li>
-                    <li>
-                        Mentors and community support
-                    </li>
-                    <li>
-                        Necessitatibus saepe
-                    </li>
-                    <li>
-                        Ut aut reiciendis
-                    </li>
-                </ul>
-                <p class="discover-prices__card__regular-price">
-                    12 000$
-                </p>
-                <p class="discover-prices__card__promo-price">
-                    3 000$
-                </p>
-                <button class="discover-prices__card__choose-btn">
-                    Choose
+    <section class="find-program">
+        <div class="find-program__text">
+            <h2 class="find-program__title">
+                Can't find a suitable program?
+            </h2>
+            <p class="find-program_description">
+                We will help you with the choice!
+            </p>
+            <form action="https://fom.in.ua/echo" class="find-program__form">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <button class="find-program__button">
+                    Help me
                 </button>
-            </article>
-            <article class="discover-prices__card">
-                <h3 class="discover-prices__card__title">
-                    Optimal
-                </h3>
-                <ul class="discover-prices__card__description">
-                    <li>
-                        Rerum hic tenetur a sapiente
-                    </li>
-                    <li>
-                        Consectetur, adipisci velit
-                    </li>
-                    <li>
-                        Ut aliquid ex ea commodi consequatur
-                    </li>
-                    <li>
-                        Eum fugiat quo voluptas nulla
-                    </li>
-                    <li>
-                        Illo inventore veritatis et quasi architecto
-                    </li>
-                </ul>
-                <p class="discover-prices__card__regular-price">
-                    24 000$
-                </p>
-                <p class="discover-prices__card__promo-price">
-                    6 000$
-                </p>
-                <button class="discover-prices__card__choose-btn">
-                    Choose
-                </button>
-            </article>
-            <article class="discover-prices__card">
-                <h3 class="discover-prices__card__title">
-                    Premium
-                </h3>
-                <ul class="discover-prices__card__description">
-                    <li>
-                        Ullamco laboris nisi ut
-                    </li>
-                    <li>
-                        Voluptate velit esse cillum
-                    </li>
-                    <li>
-                        Qui in ea voluptate velit esse quam nihil molestiae
-                    </li>
-                    <li>
-                        Necessitatibus saepe eveniet
-                    </li>
-                    <li>
-                        Sunt in culpa qui officia
-                    </li>
-                </ul>
-                <p class="discover-prices__card__regular-price">
-                    64 000$
-                </p>
-                <p class="discover-prices__card__promo-price">
-                    18 000$
-                </p>
-                <button class="discover-prices__card__choose-btn">
-                    Choose
-                </button>
-            </article>
+            </form>
         </div>
     </section>
 </main>
 <footer>
-    <div>
-        <a href="index.html">
-            <img src="./static/img/logo.svg" alt="logo">
+    <div class="footer__contacts">
+        <a href="courses.html">
+            <img src="./static/img/footer_logo.svg" alt="logo">
             UpDate
         </a>
         <a href="mailto:support@update.com">support@update.com</a>
@@ -333,9 +319,9 @@
         </ul>
     </div>
     <div class="copyright">
-        <a href="#">
+        <p>
             Policy privacy
-        </a>
+        </p>
         <p>
             Copyright 2022. All rights reserved
         </p>
