@@ -7,18 +7,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Main</title>
 </head>
 <body>
 <header>
-    <a href="courses.html">
+    <a href="index.html">
         <img src="./static/img/logo.svg" alt="logo">
         UpDate
     </a>
     <nav>
         <ul>
             <li>
-                <a href="#">Courses</a>
+                <a href="#">Courses<img src="./static/img/select_icon.svg" alt=""></a>
             </li>
             <li>
                 <a href="#">Teachers</a>
@@ -27,9 +28,9 @@
                 <a href="#">Blog</a>
             </li>
         </ul>
-        <a href="#">En</a>
+        <a href="#">En<img src="./static/img/select_icon.svg" alt=""></a>
         <a href="#">Sign In</a>
-        <a href="#">Trial free</a>
+        <a href="#" class="trial-link">Trial free</a>
     </nav>
 </header>
 <main>
@@ -39,7 +40,7 @@
             Explore thousands of hands-on creative classes.
         </h1>
         <p class="offer__description">
-            Start learning for <a href="#">free</a>
+            Start learning for <a href="#" class="offer__free"><strong>free</strong></a>
         </p>
         <button class="button">
             Choose a course
@@ -218,9 +219,9 @@
     </section>
 </main>
 <footer>
-    <div>
+    <div class="footer__contacts">
         <a href="courses.html">
-            <img src="./static/img/logo.svg" alt="logo">
+            <img src="./static/img/footer_logo.svg" alt="logo">
             UpDate
         </a>
         <a href="mailto:support@update.com">support@update.com</a>
@@ -318,9 +319,9 @@
         </ul>
     </div>
     <div class="copyright">
-        <a href="#">
+        <p>
             Policy privacy
-        </a>
+        </p>
         <p>
             Copyright 2022. All rights reserved
         </p>

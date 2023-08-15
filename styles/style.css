@@ -1,0 +1,95 @@
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+body {
+    color: #19191C;
+}
+
+header, .offer, .course {
+    background-color: #EFEFF2;
+    color: #19191C;
+}
+
+.trial-link {
+    background-color: #19191C;
+    color: #EFEFF2;
+}
+
+.offer__free {
+    color: #504DEE;
+}
+
+.button {
+    background-color: #504DEE;
+    color: #FBFBFC;
+}
+
+.learn {
+    background-color: #19191C;
+}
+
+.learn .learn__title, .learn__counter-number {
+    color: #FBFBFC;
+}
+
+.learn .learn__description, .learn__counter-description {
+    color: #EFEFF2;
+}
+
+.discover {
+    background-color: #FBFBFC;
+}
+
+.find-program {
+    background-color: #DEEFE4;
+}
+
+.regular-card {
+    background-image: url(../static/img/regular-view-course-bg.jpg);
+    color: #19191C;
+}
+
+.regular-card .regular-price {
+    color: #6D6D77;
+}
+
+.regular-card .choose-btn {
+    background-color: #19191C;
+    color: #FBFBFC;
+}
+
+.hover-card {
+    background-image: url(../static/img/hover-view-course-bg.jpg);
+    color: #FBFBFC;
+}
+
+.hover-card .choose-btn {
+    background-color: #FBFBFC;
+    color: #504DEE;
+}
+
+.hover-card .regular-price {
+    color: #EFEFF2;
+}
+
+footer {
+    background-color: #19191C;
+}
+
+.footer__contacts, .sitemap__title {
+    color: #FBFBFC;
+}
+
+.sitemap__list {
+    color: #EFEFF2;
+}
+
+.copyright {
+    color: #6D6D77;
+}

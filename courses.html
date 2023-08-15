@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Courses</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
     <nav>
         <ul>
             <li>
-                <a href="#">Courses</a>
+                <a href="#">Courses<img src="./static/img/select_icon.svg" alt=""></a>
             </li>
             <li>
                 <a href="#">Teachers</a>
@@ -27,9 +28,9 @@
                 <a href="#">Blog</a>
             </li>
         </ul>
-        <a href="#">En</a>
+        <a href="#">En<img src="./static/img/select_icon.svg" alt=""></a>
         <a href="#">Sign In</a>
-        <a href="#">Trial free</a>
+        <a href="#" class="trial-link">Trial free</a>
     </nav>
 
 </header>
@@ -146,7 +147,7 @@
             Prices
         </h2>
         <div class="discover-prices__cards">
-            <article class="discover-prices__card">
+            <article class="discover-prices__card regular-card">
                 <h3 class="discover-prices__card__title">
                     Base
                 </h3>
@@ -164,17 +165,17 @@
                         Ut aut reiciendis
                     </li>
                 </ul>
-                <p class="discover-prices__card__regular-price">
+                <p class="regular-price">
                     12 000$
                 </p>
-                <p class="discover-prices__card__promo-price">
+                <p class="promo-price">
                     3 000$
                 </p>
-                <button class="discover-prices__card__choose-btn">
+                <button class="choose-btn">
                     Choose
                 </button>
             </article>
-            <article class="discover-prices__card">
+            <article class="discover-prices__card hover-card">
                 <h3 class="discover-prices__card__title">
                     Optimal
                 </h3>
@@ -195,17 +196,17 @@
                         Illo inventore veritatis et quasi architecto
                     </li>
                 </ul>
-                <p class="discover-prices__card__regular-price">
+                <p class="regular-price">
                     24 000$
                 </p>
-                <p class="discover-prices__card__promo-price">
+                <p class="promo-price">
                     6 000$
                 </p>
-                <button class="discover-prices__card__choose-btn">
+                <button class="choose-btn">
                     Choose
                 </button>
             </article>
-            <article class="discover-prices__card">
+            <article class="discover-prices__card regular-card">
                 <h3 class="discover-prices__card__title">
                     Premium
                 </h3>
@@ -226,13 +227,13 @@
                         Sunt in culpa qui officia
                     </li>
                 </ul>
-                <p class="discover-prices__card__regular-price">
+                <p class="regular-price">
                     64 000$
                 </p>
-                <p class="discover-prices__card__promo-price">
+                <p class="promo-price">
                     18 000$
                 </p>
-                <button class="discover-prices__card__choose-btn">
+                <button class="choose-btn">
                     Choose
                 </button>
             </article>
@@ -240,9 +241,9 @@
     </section>
 </main>
 <footer>
-    <div>
+    <div class="footer__contacts">
         <a href="courses.html">
-            <img src="./static/img/logo.svg" alt="logo">
+            <img src="./static/img/footer_logo.svg" alt="logo">
             UpDate
         </a>
         <a href="mailto:support@update.com">support@update.com</a>
@@ -340,9 +341,9 @@
         </ul>
     </div>
     <div class="copyright">
-        <a href="#">
+        <p>
             Policy privacy
-        </a>
+        </p>
         <p>
             Copyright 2022. All rights reserved
         </p>
