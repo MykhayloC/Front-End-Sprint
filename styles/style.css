@@ -509,6 +509,51 @@ body {
     margin-left: 103px;
 }
 
+.profession-details__result {
+    display: flex;
+    gap: 20px;
+    margin: 168px 240px 0;
+}
+
+.profession-details__result-portfolio {
+    background: url(../static/img/course-result-portfolio-bg.jpg);
+    width: 467px;
+    height: 329px;
+}
+
+.profession-details__result-internship {
+    background: url(../static/img/course-result-internship-bg.png);
+    width: 466px;
+    height: 329px;
+}
+
+.profession-details__result-certificate {
+    background: url(../static/img/course-result-certificate-bg.png);
+    width: 467px;
+    height: 329px;
+}
+
+.profession-details__result__title {
+    font-size: 34px;
+    line-height: 41px;
+    font-weight: 700;
+    margin-top: 68px;
+    margin-left: 48px;
+    margin-bottom: 0;
+}
+
+.profession-details__result-underline {
+    margin-top: 28px;
+    margin-left: 48px;
+}
+
+.profession-details__result__description {
+    width: 368px;
+    margin-top: 12px;
+    margin-left: 48px;
+}
+
+
 
 .discover {
     background-color: #FBFBFC;
