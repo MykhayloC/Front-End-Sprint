@@ -179,7 +179,6 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     padding: 0 0 230px;
-    /*margin-top: 137px;*/
     background: url(../static/img/man-pointing-upper-left-corner.png) 100% 100% no-repeat, url(../static/img/blue_rectangle-background.png) 88% 100% no-repeat;
 
 }
@@ -347,6 +346,131 @@ body {
 .learn__underline {
     margin-top: 22px;
 }
+
+.discover {
+    background-color: #FBFBFC;
+    padding: 168px 240px 249px;
+    /*padding-right: 240px;*/
+    /*padding-top: 168px;*/
+    margin-bottom: -81px;
+    /*padding-bottom: 249px;*/
+}
+
+.discover__title {
+    width: 594px;
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.discover__link-holder {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.discover__list {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    list-style-type: none;
+}
+
+.hover-link__sample {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: content-box;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.discover__link {
+    text-decoration: none;
+    color: #19191C;
+}
+
+.discover__see-more-holder {
+    display: flex;
+    width: 141px;
+    align-items: center;
+    text-decoration: none;
+    color: #19191C;
+    line-height: 22px;
+    font-weight: 700;
+    gap: 18px;
+}
+
+.discover__cards {
+    margin-top: 56px;
+    display: flex;
+    gap: 20px;
+}
+
+.discover__card-title {
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.discover__card-duration {
+    color: #6D6D77;
+    margin-top: 11px;
+}
+
+.find-program {
+    display: flex;
+    background-color: #DEEFE4;
+    height: 260px;
+    padding: 168px 240px;
+}
+
+.find-program__title {
+    width: 801px;
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.find-program_description {
+    margin-top: 28px;
+}
+
+.find-program__form {
+    margin-left: -71px;
+}
+
+.input__item {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    margin-top: 25px;
+}
+
+.find-program__input {
+    background-color: #DEEFE4;
+    border: none;
+    width: 710px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #19191C;
+}
+
+.find-program__button {
+    margin-top: 68px;
+    padding: 16px 36px;
+    background-color: #19191C;
+    color: #FBFBFC;
+    border: none;
+
+}
+
+
 
 /*Courses-page styles*/
 
@@ -555,13 +679,6 @@ body {
 
 
 
-.discover {
-    background-color: #FBFBFC;
-}
-
-.find-program {
-    background-color: #DEEFE4;
-}
 
 .regular-card {
     background-image: url(../static/img/regular-view-course-bg.jpg);
