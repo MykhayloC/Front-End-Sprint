@@ -13,6 +13,7 @@ body {
     margin: 0 auto;
 }
 
+
 /*Header styles*/
 
 .header {
@@ -82,10 +83,12 @@ body {
     align-items: center;
 }
 
+
 /*Footer styles*/
 
 .footer__container {
     background: #19191C;
+    height: 536px;
 }
 
 .footer__info {
@@ -169,6 +172,18 @@ body {
 .sitemap a, .sitemap li {
     color: #EFEFF2;
     text-decoration: none;
+}
+
+.footer__copyright {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    color: #6D6D77;
+    margin-top: 100px;
+}
+
+.footer__copyright p {
+    margin: 0;
 }
 
 
@@ -471,9 +486,7 @@ body {
 }
 
 
-
 /*Courses-page styles*/
-
 
 .course {
     display: flex;
@@ -546,7 +559,6 @@ body {
     right: 480px;
 }
 
-
 .course__miro {
     top: 90px;
     left: 180px;
@@ -576,7 +588,6 @@ body {
     display: flex;
     padding: 168px 240px 0;
 }
-
 
 .profession-details__result {
     display: flex;
@@ -677,12 +688,89 @@ body {
     margin-left: 48px;
 }
 
+.discover-prices {
+    height: 972px;
+    padding: 171px 240px 168px;
+}
 
+.discover-prices__title {
+    width: 500px;
+    margin: 0;
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+}
 
+.discover-prices__cards {
+    height: 732px;
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.discover-prices__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-left: 68px;
+    padding-bottom: 51px;
+}
+
+.discover-prices__card__title {
+    margin: 0;
+    font-size: 34px;
+    line-height: 41px;
+    font-weight: 700;
+}
+
+.discover-prices__card__description {
+    padding-left: 15px;
+    list-style-type: square;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.base-card {
+     padding-right: 59px;
+ }
+
+.optimal-card {
+    padding-right: 51px;
+}
+
+.premium-card {
+    padding-right: 38px;
+}
+
+.regular-price {
+    margin: 0;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.promo-price {
+    margin: 3px 0 0;
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+.choose-btn {
+    margin-top: 18px;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    padding: 16px 36px;
+}
 
 .regular-card {
     background-image: url(../static/img/regular-view-course-bg.jpg);
     color: #19191C;
+    /*padding-right: 59px;*/
 }
 
 .regular-card .regular-price {
@@ -697,6 +785,7 @@ body {
 .hover-card {
     background-image: url(../static/img/hover-view-course-bg.jpg);
     color: #FBFBFC;
+    /*padding-left: 51px;*/
 }
 
 .hover-card .choose-btn {
