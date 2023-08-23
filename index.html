@@ -124,47 +124,50 @@
         <h2 class="discover__title">
             Discover Lifelong Learning
         </h2>
-        <ul class="discover__list">
-            <li>
-                <button class="discover__button">
-                    Popular
-                </button>
-            </li>
-            <li>
-                <button class="discover__button">
-                    Animation
-                </button>
-            </li>
-            <li>
-                <button class="discover__button">
-                    Design
-                </button>
-            </li>
-            <li>
-                <button class="discover__button">
-                    Illustration
-                </button>
-            </li>
-            <li>
-                <button class="discover__button">
-                    Programming
-                </button>
-            </li>
-            <li>
-                <button class="discover__button">
-                    Photo & Film
-                </button>
-            </li>
-            <li>
-                <button class="discover__button">
-                    Marketing
-                </button>
-            </li>
-        </ul>
-        <a href="#">
-            See more
-            <img src="./static/img/icon-arrow-right.svg" alt="See more">
-        </a>
+        <div class="discover__link-holder">
+            <ul class="discover__list">
+                <li>
+                    <a class="discover__link hover-link__sample" href="#">
+                        Popular
+                        <img src="./static/img/discover-section-hover-underline.jpg" alt="underline">
+                    </a>
+                </li>
+                <li>
+                    <a class="discover__link" href="#">
+                        Animation
+                    </a>
+                </li>
+                <li>
+                    <a class="discover__link" href="#">
+                        Design
+                    </a>
+                </li>
+                <li>
+                    <a class="discover__link" href="#">
+                        Illustration
+                    </a>
+                </li>
+                <li>
+                    <a class="discover__link" href="#">
+                        Programming
+                    </a>
+                </li>
+                <li>
+                    <a class="discover__link" href="#">
+                        Photo & Film
+                    </a>
+                </li>
+                <li>
+                    <a class="discover__link" href="#">
+                        Marketing
+                    </a>
+                </li>
+            </ul>
+            <a class="discover__see-more-holder" href="#">
+                See more
+                <img src="./static/img/icon-arrow-right.svg" alt="See more">
+            </a>
+        </div>
         <div class="discover__cards">
             <article class="discover__card-item">
                 <img src="./static/img/card-triangles.jpg" alt="triangles">
@@ -212,14 +215,20 @@
             <p class="find-program_description">
                 We will help you with the choice!
             </p>
-            <form action="https://fom.in.ua/echo" class="find-program__form">
-                <input type="text" name="name" placeholder="Name" required>
-                <input type="email" name="email" placeholder="Email" required>
-                <button class="find-program__button">
-                    Help me
-                </button>
-            </form>
-        </div>
+         </div>
+        <form action="https://fom.in.ua/echo" class="find-program__form">
+            <div class="input__item">
+                <input class="find-program__input" type="text" name="name" placeholder="Name" required>
+                <img class="find-program__input-underline-img" src="./static/img/form-underline.png" alt="underline">
+            </div>
+            <div class="input__item">
+                <input class="find-program__input" type="email" name="email" placeholder="Email" required>
+                <img class="find-program__input-underline-img" src="./static/img/form-underline.png" alt="underline">
+            </div>
+            <button class="find-program__button">
+                Help me
+            </button>
+        </form>
     </section>
 </main>
 <footer class="footer__container">
@@ -340,10 +349,10 @@
 
     </div>
     <div class="footer__copyright">
-        <p>
+        <p class="footer__copyright__item">
             Policy privacy
         </p>
-        <p>
+        <p class="footer__copyright__item">
             Copyright 2022. All rights reserved
         </p>
     </div>

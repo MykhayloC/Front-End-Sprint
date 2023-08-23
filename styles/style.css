@@ -13,6 +13,7 @@ body {
     margin: 0 auto;
 }
 
+
 /*Header styles*/
 
 .header {
@@ -82,10 +83,12 @@ body {
     align-items: center;
 }
 
+
 /*Footer styles*/
 
 .footer__container {
     background: #19191C;
+    height: 536px;
 }
 
 .footer__info {
@@ -171,6 +174,18 @@ body {
     text-decoration: none;
 }
 
+.footer__copyright {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    color: #6D6D77;
+    margin-top: 100px;
+}
+
+.footer__copyright p {
+    margin: 0;
+}
+
 
 /*Index-page styles*/
 
@@ -179,7 +194,6 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     padding: 0 0 230px;
-    /*margin-top: 137px;*/
     background: url(../static/img/man-pointing-upper-left-corner.png) 100% 100% no-repeat, url(../static/img/blue_rectangle-background.png) 88% 100% no-repeat;
 
 }
@@ -348,8 +362,131 @@ body {
     margin-top: 22px;
 }
 
-/*Courses-page styles*/
+.discover {
+    background-color: #FBFBFC;
+    padding: 168px 240px 249px;
+    /*padding-right: 240px;*/
+    /*padding-top: 168px;*/
+    margin-bottom: -81px;
+    /*padding-bottom: 249px;*/
+}
 
+.discover__title {
+    width: 594px;
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.discover__link-holder {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.discover__list {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    list-style-type: none;
+}
+
+.hover-link__sample {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: content-box;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.discover__link {
+    text-decoration: none;
+    color: #19191C;
+}
+
+.discover__see-more-holder {
+    display: flex;
+    width: 141px;
+    align-items: center;
+    text-decoration: none;
+    color: #19191C;
+    line-height: 22px;
+    font-weight: 700;
+    gap: 18px;
+}
+
+.discover__cards {
+    margin-top: 56px;
+    display: flex;
+    gap: 20px;
+}
+
+.discover__card-title {
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.discover__card-duration {
+    color: #6D6D77;
+    margin-top: 11px;
+}
+
+.find-program {
+    display: flex;
+    background-color: #DEEFE4;
+    height: 260px;
+    padding: 168px 240px;
+}
+
+.find-program__title {
+    width: 801px;
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.find-program_description {
+    margin-top: 28px;
+}
+
+.find-program__form {
+    margin-left: -71px;
+}
+
+.input__item {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    margin-top: 25px;
+}
+
+.find-program__input {
+    background-color: #DEEFE4;
+    border: none;
+    width: 710px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #19191C;
+}
+
+.find-program__button {
+    margin-top: 68px;
+    padding: 16px 36px;
+    background-color: #19191C;
+    color: #FBFBFC;
+    border: none;
+
+}
+
+
+/*Courses-page styles*/
 
 .course {
     display: flex;
@@ -422,7 +559,6 @@ body {
     right: 480px;
 }
 
-
 .course__miro {
     top: 90px;
     left: 180px;
@@ -452,7 +588,6 @@ body {
     display: flex;
     padding: 168px 240px 0;
 }
-
 
 .profession-details__result {
     display: flex;
@@ -553,19 +688,89 @@ body {
     margin-left: 48px;
 }
 
-
-
-.discover {
-    background-color: #FBFBFC;
+.discover-prices {
+    height: 972px;
+    padding: 171px 240px 168px;
 }
 
-.find-program {
-    background-color: #DEEFE4;
+.discover-prices__title {
+    width: 500px;
+    margin: 0;
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+.discover-prices__cards {
+    height: 732px;
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.discover-prices__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-left: 68px;
+    padding-bottom: 51px;
+}
+
+.discover-prices__card__title {
+    margin: 0;
+    font-size: 34px;
+    line-height: 41px;
+    font-weight: 700;
+}
+
+.discover-prices__card__description {
+    padding-left: 15px;
+    list-style-type: square;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.base-card {
+     padding-right: 59px;
+ }
+
+.optimal-card {
+    padding-right: 51px;
+}
+
+.premium-card {
+    padding-right: 38px;
+}
+
+.regular-price {
+    margin: 0;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.promo-price {
+    margin: 3px 0 0;
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+.choose-btn {
+    margin-top: 18px;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    padding: 16px 36px;
 }
 
 .regular-card {
     background-image: url(../static/img/regular-view-course-bg.jpg);
     color: #19191C;
+    /*padding-right: 59px;*/
 }
 
 .regular-card .regular-price {
@@ -580,6 +785,7 @@ body {
 .hover-card {
     background-image: url(../static/img/hover-view-course-bg.jpg);
     color: #FBFBFC;
+    /*padding-left: 51px;*/
 }
 
 .hover-card .choose-btn {
